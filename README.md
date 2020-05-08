@@ -3,7 +3,7 @@
 
 ## 使用前须知
 
-**本包只支持 laravel、yii2、thinkphp5 及更高保本**
+**本包只支持 laravel、yii2、thinkphp5 及更高版本**
 
 ## 使用前准备
 
@@ -39,4 +39,4 @@ var_dump($acsClient->ossManage('listBuckets'));//列举存储空间
 
 ### 备注
 
-有关更多的使用功能请看common\services\AliyunVideoTranscode\AliyunEnv\AliyunAliasesMaps.php
+有关更多的使用功能请看common\services\AliyunVideoTranscode\AliyunEnv\AliyunAliasesMaps.php中所列
