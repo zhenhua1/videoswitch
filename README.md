@@ -1,9 +1,25 @@
 # videoswitch
 阿里云视频转码封装
 
-# 使用前须知
+## 使用前须知
 
 **本包只支持 laravel、yii2、thinkphp5 及更高保本**
 
-# 使用前准备
-## 需要去阿里云下载最新的视频转码包放到项目的vendor/aliyuncs *没有请创建* （若使用包中的oss相关功能原理同上）
+## 使用前准备
+
+### 需要去阿里云下载最新的视频转码包放到项目的vendor/aliyuncs *没有请创建* （若使用包中的oss相关功能原理同上）
+
+### 需要将包中common\services\AliyunVideoTranscode\AliyunEnv 下的AliyunConfig.php复制到自己项目的config中并更名为AliZZHConfig.php
+
+## 音(视)频示例
+
+```
+use common\services\AliyunVideoTranscode\AliyunClient;
+
+$instance=AliyunClient::GetInstance();
+$acsClient=$instance->acsClients();
+$acsClient->client();
+$file='d3ae5eaf2eaf002d2eef71a53247c68a.mp4';
+var_dump($acsClient->mp4SwitchManage('submitJobsRequest',$file));//视频转码
+```
+
