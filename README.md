@@ -7,7 +7,7 @@
 
 ## 使用前准备
 
-需要去阿里云下载最新的视频转码包放到项目的vendor/aliyuncs *没有请创建* （若使用包中的oss相关功能原理同上）
+需要去阿里云下载最新的视频转码sdk放到项目的vendor/aliyuncs *没有请创建* （若使用包中的oss相关功能原理同上）
 
 需要将包中common\services\AliyunVideoTranscode\AliyunEnv 下的AliyunConfig.php复制到自己项目的config中并更名为AliZZHConfig.php
 
