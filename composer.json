@@ -1,0 +1,21 @@
+{
+  "name": "videoswitch/alivideoswitch",
+  "description": "阿里云视(音)频转码",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "张振华",
+      "email": "2593481502@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "common\\services\\AliyunVideoTranscode\\": "src/common/services/AliyunVideoTranscode"
+    }
+  }
+}
