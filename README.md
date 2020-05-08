@@ -39,4 +39,4 @@ var_dump($acsClient->ossManage('listBuckets'));//列举存储空间
 
 ### 备注
 
-有关更多的使用功能请看common\services\AliyunVideoTranscode\AliyunEnv\AliyunAliasesMaps.php中所列
+有关更多的使用功能请看common\services\AliyunVideoTranscode\AliyunEnv\AliyunAliasesMaps.php中暂时所列方法
